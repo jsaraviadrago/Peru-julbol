@@ -17,7 +17,7 @@ fperu_dpto <- st_as_sf(peru_dpto)
 
 
 # Cargar dataframe con equipos
-url <- "https://raw.githubusercontent.com/jsaraviadrago/Misc-Portfolio/main/0.%20Fun%203D%20plots%20and%20art/data_equipos_vf1.csv"
+url <- "https://raw.githubusercontent.com/jsaraviadrago/Peru-julbol/main/Peruvian_football_map/data_equipos_vf1.csv"
 
 data_equipos <- read.csv(url)
 
