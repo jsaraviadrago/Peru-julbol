@@ -1,0 +1,35 @@
+---
+title: "Equipos de fútbol en Perú"
+author: "Juan Carlos Saravia"
+format: html
+editor: visual
+---
+
+El Perú es un equipo sumamente futbolero, pero por lo general lo que ocurre es que las personas suelen conocer los equipos que están dentro de Lima que es la capital. Alianza Lima, Universitario de Deportes y Sporting Cristal son los que más suenan.
+
+Sin embargo, existen varios equipos de fútbol a lo largo y ancho del Perú. Es más, gracias a la maravillosa Copa Perú es que todos estos equipos tienen la posibilidad de por lo menos intentar competir para llegar a la primera división.
+
+En este documento veremos la distribución de equipos de fútbol por cada uno de los departamentos del Perú y si es que según la población la distribución de los mismos cambia.
+
+## ¿Cómo es que se distribuyen los equipos en Perú?
+
+## 
+
+En el Perú existen 24 departamentos, en este apartado veremos gracias a la librería \`\``mapsPeru`\`\` una forma sumamente sencilla para plotear el mapa del Perú y por región introducir información.
+
+## ¿La distribución de equipos cambia según la población?
+
+#### 
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

@@ -60,7 +60,7 @@ mapa_equipos <- ggplot(fperu_dpto) +
 
 
 
-# Plot 3D no funciona
+# Plot 3D 
 #plot_gg(mapa_equipos, multicore=TRUE,height=5,width=6,scale=500)
 
 # mapa del peru con colores plano
