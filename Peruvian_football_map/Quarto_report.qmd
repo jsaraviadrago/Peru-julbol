@@ -17,19 +17,24 @@ En este documento veremos la distribución de equipos de fútbol por cada uno de
 
 En el Perú existen 24 departamentos, en este apartado veremos gracias a la librería \`\``mapsPeru`\`\` una forma sumamente sencilla para plotear el mapa del Perú y por región introducir información.
 
+![](images/Rplot_cantidad_equipos.png){width="428"}
+
+Aquí podemos ver que lógicamente el departamento que tiene y por lejos la mayor cantidad de equipos de fútbol es Lima. En general, si queremos sacar una conclusión amplia podemos observar que la costa del Perú suele ser la que tiene más equipos salvo Tumbes, Moquegua y Tacna.
+
+En otras palabras, los departamentos de los extremos hacia el norte y el sur de la costa son los que tienen menor cantidad de equipos. Pero como vamos a ver a continuación Tumbes es un caso particular.
+
+Solo para dar algo de contexto, Tumbes es la primera región de la esquina de arriba.
+
 ## ¿La distribución de equipos cambia según la población?
 
 #### 
 
-```{r}
-1 + 1
-```
+En este caso, se extrajo la distibución de población proyectada por departamento del Perú de los datos abiertos que disponibiliza el estado. Este data frame se puede encontrar en el mismo repositorio de Peru-julbol.
 
-You can add options to executable code like this
+En el siguiente gráfico voy a plotear la tasa de equipos por cada 10 mil habitantes por cada un de las regiones del Perú. ¿Cómo es que se lee esto? Mientras mayor es el valor quiere decir que hay más equipos de fútbol en proporción a la cantidad de habitantes que tiene la región.
 
-```{r}
-#| echo: false
-2 * 2
-```
+![](images/Rplot_equipos_habitantes.png){width="428"}
 
-The `echo: false` option disables the printing of code (only output is displayed).
+Como vemos el mapa, los coloeres cambian bastante en algunas provincias, por ejemplo Ica de por si en comparación a los demás está dentro del promedio en la cantidad de equipos de fútbol. Sin embargo, si se compara con respecto a su población Ica es de las regiones que tienen más equipos de fútbol según su población.
+
+Lo mismo ocurre en Tumbes donde con relación a su población es el segundo departamento que más equipos de fútbol tiene. Así, Tumbes en bruto tenia pocos equipos de fútbol en comparación a las otras regiones, pero si se toma en cuenta la población tiene varios equipos de fútbol.
