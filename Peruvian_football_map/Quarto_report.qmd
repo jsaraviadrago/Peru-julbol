@@ -1,8 +1,11 @@
 ---
 title: "Equipos de fútbol en Perú"
 author: "Juan Carlos Saravia"
-format: html
-editor: visual
+format: 
+  pdf:
+    toc: False
+    number-sections: False
+    colorlinks: true
 ---
 
 El Perú es un equipo sumamente futbolero, pero por lo general lo que ocurre es que las personas suelen conocer los equipos que están dentro de Lima que es la capital. Alianza Lima, Universitario de Deportes y Sporting Cristal son los que más suenan.
